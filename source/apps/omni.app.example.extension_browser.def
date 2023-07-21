@@ -11,26 +11,6 @@ keywords = ["app"] # Makes this browsable in the UI under the "experience" filte
 # Add new extensions here if you want them enabled automatically when this app is run.
 # Otherwise, you can search for them in the extensions window and enable/disable them.
 
-"omni.kit.uiapp" = {}
-"omni.kit.viewport.bundle" = {}
-"omni.kit.viewport.rtx" = {}
-"omni.kit.window.extensions" = {}
-"omni.kit.window.file" = {}
-"omni.kit.window.toolbar" = {}
-
-"omni.app.dev" = {}
-
-# PhysX
-# "omni.physx" = {}
-"omni.physx.bundle" = {}
-
-# "omni.usd" = {}
-
-# "omni.client" = {}
-
-# "omni.example.cpp.usd_physics" = {}
-"boris.example.cpp.usd_physics" = {}
-
 [settings]
 app.exts.folders.'++' = ["${app}/../exts"] # Make extensions from this repo available to kit.
 app.menu.legacy_mode = false # So the extension window shows up

@@ -53,6 +53,7 @@ Essentially, you need to change `omni` or `boris` to your own prefix.
 5. Update your new extension's Python code in the `python` folder as necessary.
 6. Update your new extension's Python bindings in the `bindings` folder as necessary.
 7. Update your new extension's documentation in the `docs` folder as necessary.
-8. Run `build.bat` to build your new extension. This may take a couple of minutes (be patient).
-9. Run `_build\{platform}\release\omni.app.example.extension_browser.sh` to open an example kit application.
-10. Enter the name of your new extension in the search bar at the top of the extension browser window to view it. Once you find it, you can enable/disable it. The output will be printed in the terminal where you ran the `omni.app.example.extension_browser.sh` command.
+8. Update the name of the folders `omni` or `boris` with your own prefix.
+9. Run `build.sh` to build your new extension. This may take a couple of minutes (be patient).
+10. Run `_build\{platform}\release\omni.app.example.extension_browser.sh` to open an example kit application.
+11. Enter the name of your new extension in the search bar at the top of the extension browser window to view it. Once you find it, you can enable/disable it. The output will be printed in the terminal where you ran the `omni.app.example.extension_browser.sh` command.
