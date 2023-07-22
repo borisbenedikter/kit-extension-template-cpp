@@ -1,0 +1,3 @@
+[submodule "extern/PhysX"]
+	path = extern/PhysX
+	url = git@github.com:borisbenedikter/PhysX.git
